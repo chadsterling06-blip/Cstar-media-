@@ -144,18 +144,18 @@ Write-Host "  All 7 tasks scheduled successfully!" -ForegroundColor Cyan
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "YOUR DAILY ROUTINE:" -ForegroundColor Yellow
-Write-Host "  6:15 AM  — Open outreach/todays-dms.txt (English DMs)"
-Write-Host "  6:16 AM  — Open outreach/todays-dms-spanish.txt (Spanish DMs)"
-Write-Host "  6:17 AM  — Open outreach/todays-post.txt (LinkedIn post)"
-Write-Host "  6:18 AM  — Open outreach/todays-post-spanish.txt (Spanish post)"
-Write-Host "           >> Send DMs + post content = 20 min total"
+Write-Host "  6:15 AM  - Open outreach/todays-dms.txt (English DMs)"
+Write-Host "  6:16 AM  - Open outreach/todays-dms-spanish.txt (Spanish DMs)"
+Write-Host "  6:17 AM  - Open outreach/todays-post.txt (LinkedIn post)"
+Write-Host "  6:18 AM  - Open outreach/todays-post-spanish.txt (Spanish post)"
+Write-Host "           - Send DMs + post content = 20 min total"
 Write-Host ""
-Write-Host "  4:30 PM  — Open outreach/evening-prospects.txt (Mon-Wed only)"
-Write-Host "           >> Reply to DMs, book discovery calls = 10 min"
+Write-Host "  4:30 PM  - Open outreach/evening-prospects.txt (Mon-Wed only)"
+Write-Host "           - Reply to DMs, book discovery calls = 10 min"
 Write-Host ""
 Write-Host "WEEKLY:"
-Write-Host "  Wednesday 4:35 PM — Review weekly-review.txt"
-Write-Host "  Sunday    7:00 AM — Review weekly-plan.txt"
+Write-Host "  Wednesday 4:35 PM - Review weekly-review.txt"
+Write-Host "  Sunday    7:00 AM - Review weekly-plan.txt"
 Write-Host ""
 Write-Host "Discovery calls: Mon-Wed evenings 5-7 PM CT" -ForegroundColor Green
-Write-Host "Night job days (no CSTAR needed): Thu, Fri, Sat, Sun evenings" -ForegroundColor Gray
+Write-Host "Night job days (no CSTAR needed): Thu, Fri, Sat, Sun evenings" -ForegroundColor Green

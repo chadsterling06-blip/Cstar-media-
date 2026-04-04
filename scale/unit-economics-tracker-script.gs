@@ -248,11 +248,11 @@ function buildScaleReadiness(ss) {
   var recRange    = sheet.getRange("B13");
 
   var rules = [];
-  rules.push(SpreadsheetApp.newConditionalFormatRule().whenTextEqualTo("YES").setBackground(GREEN_BG).setFontColor(GREEN_TEXT).setFontWeight("bold").setRanges([statusRange]).build());
+  rules.push(SpreadsheetApp.newConditionalFormatRule().whenTextEqualTo("YES").setBackground(GREEN_BG).setFontColor(GREEN_TEXT).setRanges([statusRange]).build());
   rules.push(SpreadsheetApp.newConditionalFormatRule().whenTextEqualTo("NO").setBackground(RED_BG).setFontColor(RED_TEXT).setRanges([statusRange]).build());
-  rules.push(SpreadsheetApp.newConditionalFormatRule().whenTextEqualTo("READY TO SCALE").setBackground(GREEN_BG).setFontColor(GREEN_TEXT).setFontWeight("bold").setRanges([recRange]).build());
-  rules.push(SpreadsheetApp.newConditionalFormatRule().whenTextEqualTo("ALMOST READY").setBackground(YELLOW_BG).setFontColor("#7d4e00").setFontWeight("bold").setRanges([recRange]).build());
-  rules.push(SpreadsheetApp.newConditionalFormatRule().whenTextEqualTo("NOT YET - KEEP BUILDING").setBackground(RED_BG).setFontColor(RED_TEXT).setFontWeight("bold").setRanges([recRange]).build());
+  rules.push(SpreadsheetApp.newConditionalFormatRule().whenTextEqualTo("READY TO SCALE").setBackground(GREEN_BG).setFontColor(GREEN_TEXT).setRanges([recRange]).build());
+  rules.push(SpreadsheetApp.newConditionalFormatRule().whenTextEqualTo("ALMOST READY").setBackground(YELLOW_BG).setFontColor("#7d4e00").setRanges([recRange]).build());
+  rules.push(SpreadsheetApp.newConditionalFormatRule().whenTextEqualTo("NOT YET - KEEP BUILDING").setBackground(RED_BG).setFontColor(RED_TEXT).setRanges([recRange]).build());
   sheet.setConditionalFormatRules(rules);
 
   sheet.getRange(12, 1).setValue("YOUR SCORE").setFontWeight("bold");
